@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Bebas';
+    src: url('fonts/BebasNeue-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+
+
+
+body{
+    min-width: 300px;
+    max-width: 1350px;
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+   
+        
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3DDC84,#2FA866, #063D1E );
+    color: white;
+    margin: -17px;
+    padding-top:25px;
+    box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.445);
+}
+
+header > h1{ 
+    text-align: center;
+    font: 3em 'Bebas',Arial, Helvetica, sans-serif; 
+
+}
+
+header > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    font: bold 0.8em Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 8px;
+
+    
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+
+.link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+main{
+   background-color: white;
+   width: 1000px;
+   margin: auto;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 40px;
+   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.479);
+   
+      
+}
+
+
+
+article > h1{
+    font: 1.5em 'Idroid',Arial, Helvetica, sans-serif;
+    color: #257e4d;
+    
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    
+}
+
+.h2{
+    font: 1.2em 'Idroid',Arial, Helvetica, sans-serif;
+    color: #257e4d;
+    background-color:#C5EBD6 ;
+    
+}
+
+.site{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #257e4d;
+    text-decoration: none;
+
+}
+
+.imagem{
+    text-align: center;
+}
+
+aside{
+    background-color: #063D1E;
+    text-align: center;
+    margin:-10px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.479);
+}
+
+aside#caixa > h2{
+    background-color:#257e4d;
+    color:white;
+    font: bold 1em Arial, Helvetica, sans-serif;
+    text-align:justify;
+    padding-top: 11px;
+    padding-bottom: 7px;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 0px;
+    border-radius: 10px 0px;
+
+}
+
+aside#caixa{
+    background-color:#C5EBD6;
+    width: 800px;
+    margin: auto;
+    margin-top: 31px;
+    padding: 1px 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 10px 0px;
+
+}
+
+ul{
+    text-align: left;
+}
+
+footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:-17px;
+    margin-left:-10px;
+}
+
